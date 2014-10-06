@@ -46,10 +46,6 @@ dist
 dist/*
 doc/
 eggs
-lib
-lib/bundler/man
-lib64
-lib_managed/
 nosetests.xml
 parts
 pip-log.txt
