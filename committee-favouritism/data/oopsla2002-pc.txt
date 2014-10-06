@@ -1,0 +1,25 @@
+Mikio Aoyama
+David Bacon
+Kent Beck
+Elisa Bertino
+Gilad Bracha
+Frank Buschmann
+Craig Chambers
+Shigeru Chiba
+Jennifer Hamilton
+Seongsoo Hong
+Tony Hosking
+Gregor Kiczales
+Doug Lea
+Andrew Lumsdaine
+Boris Magnusson
+Mira Mezini
+Gail Murphy
+Oscar Nierstrasz
+James Noble
+Jens Palsberg
+Martin Rinard
+Guy L. Steele Jr
+Clemens Szyperski
+John Vlissides
+Allen Wirfs-Brock

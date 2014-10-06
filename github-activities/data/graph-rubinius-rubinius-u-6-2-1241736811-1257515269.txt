@@ -1,0 +1,16 @@
+from,to,weight
+evanphx,brixen,1
+tmornini,brixen,1
+dbussink,evanphx,2
+andhapp,brixen,2
+evanphx,keltia,1
+keltia,brixen,1
+harukizaemon,dbussink,1
+ScottBrooks,evanphx,1
+dgtized,brianmario,1
+rubyspec,dgtized,1
+mernen,dbussink,1
+evanphx,ittayd,7
+rhinton,mernen,1
+badboy,rubyspec,1
+rubyspec,evanphx,1

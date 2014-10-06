@@ -1,0 +1,10 @@
+#!/usr/bin/env rake
+require 'rake/testtask'
+require "bundler/gem_tasks"
+
+desc "Run basic tests"
+Rake::TestTask.new(:test) do |t|
+  t.pattern = 'tests/*_test.rb'
+  t.verbose = true
+  t.warning = true
+end

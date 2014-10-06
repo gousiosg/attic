@@ -1,0 +1,12 @@
+from,to,weight
+binarylogic,mischa,1
+mischa,samoli,1
+samoli,qrush,1
+qrush,rabble,1
+Abe,dodeja,1
+dodeja,boblmartens,1
+boblmartens,nofxx,1
+nofxx,rabble,1
+rabble,mattly,1
+mattly,dmathieu,1
+dmathieu,botanicus,1

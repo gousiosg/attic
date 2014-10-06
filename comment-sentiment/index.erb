@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<title>Rate Github comments!</title>
+
+<body>
+<form action="/rate">
+  Your name: <input type="text" value="">
+
+  <div style="text-align: center">
+    The last comment is
+
+      <p>
+        <input type="radio" name="rating" id="funny" value="funny"/>
+        <label for="funny">Funny</label>
+
+        <input type="radio" name="rating" id="neutral" value="neutral"/>
+        <label for="sizeLarge">Neutral</label>
+
+        <input type="radio" name="rating" id="insulting" value="insulting"/>
+        <label for="insulting">Insulting</label>
+      </p>
+
+        <input type="submit" />
+  </div>
+</form>
+
+You can see the actual thread on Github if you click here
+<a href="http://github.com/<%=  %>/<%= %>/issues/<%= %>">http://github.com/<%=  %>/<%= %>/issues/<%= %></a>
+
+<table>
+  <thead>
+    <tr>
+      <td>Link</td>
+      <td>Comment</td>
+    </tr>
+  </thead>
+  <tbody>
+    <% for @c in @comments %>
+    <tr>
+      <td></td>
+      <td><%= @c %></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
+
+</body>
+</html>

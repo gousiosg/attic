@@ -1,0 +1,14 @@
+#PBS -l nodes=1:ppn=1,mem=150gb -q smp
+#PBS -N full_dataset_crunching
+#PBS -j oe 
+#PBS -m be
+#PBS -M axl340@case.edu
+#PBS -l walltime=00:6:00
+
+module load R/3.0.2
+cp * $PFSDIR
+cd $PFSDIR
+R CMD BATCH /home/axl340/pst_crunching/full_dataset_crunching.R
+cp $PFSDIR/* $PBS_O_WORKDIR
+
+# IMPLEMENT COMMAND TO WRITE OUTPUT

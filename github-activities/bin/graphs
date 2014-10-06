@@ -1,0 +1,137 @@
+#!/usr/bin/env ruby
+
+require 'ghtorrent'
+require 'activities'
+
+class Graphs < GHTorrent::Command
+
+  include Activities
+
+  def prepare_options(options)
+    options.banner <<-BANNER
+Create collaboration graphs for developers participating in pull requests and issues
+
+#{command_name} [options] owner repo
+
+    BANNER
+
+    options.opt :window_length, 'Time window (in months) ',
+                :type => :int, :short => 'w', :default => 6
+    options.opt :link_fade_out, 'Link fade out time (in months)',
+                :type => :int, :short => 'f', :default => 2
+    options.opt :directed, 'Produce a directed graph',
+                :type => :boolean, :short => 'g', :default => false
+  end
+
+  def validate
+    super
+    Trollop::die 'Two arguments required' if args[1].nil?
+  end
+
+  def ght
+    @ght ||= GHTorrent::Mirror.new(settings)
+    @ght
+  end
+
+  def db
+    @sql_db ||= ght.get_db
+    @sql_db
+  end
+
+  def go
+    format = [:from, :to, :weight]
+
+    activities = all_activities(ARGV[0], ARGV[1])
+    earliest = activities.sort { |a, b| a[3] <=> b[3] }.first[3]
+    latest = activities.sort { |a, b| b[3] <=> a[3] }.first[3]
+
+    puts "First event: #{Time.at(earliest)}, latest event: #{Time.at(latest)}"
+    puts "Using #{options[:window_length]} months time windows"
+
+    tw_start = (earliest..latest).step(options[:window_length] * 2629743).to_a
+    tw_end = ((earliest + (options[:window_length] * 2629743))..latest).step(options[:window_length] * 2629743).to_a
+    tw_end << latest
+    timewindows = tw_start.zip(tw_end)
+
+    puts 'Applicable time windows:'
+    timewindows.each { |tw| puts "from #{Time.at(tw[0])} to #{Time.at(tw[1])}" }
+
+    dev_interactions = activities.select do |x|
+      # Select activities that comprise real interactions
+      %w{discussed reviewed}.include? x[2]
+    end.group_by do |x|
+      # Group by activity id
+      x[0]
+    end.reduce([]) do |acc, group|
+      # Generate tuples like [dev1, dev2, ts] that record the interaction time
+      # between two developers. Interactions are two consecutive activities by
+      # different developers.
+
+      # Make sure that activities are sorted by timestamp, produce user-ts pairs
+      users = group[1].sort { |a, b| a[3] <=> b[3] }.map { |x| [x[1], x[3]] }
+
+      # Generate pairs of consecutive activities, filter out activities by
+      # the same developer or non-paired activities.
+      interactions = users.zip(users.drop(1)).select do |x|
+        not (x[0].nil? || x[1].nil?) and not (x[0][0] == x[1][0])
+      end.map do |x|
+        [x[0][0], x[1][0], x[1][1]]
+      end
+
+      acc + interactions
+    end.reduce(Hash.new{|h,k| Array.new}) do |acc, x|
+      #Group generated tuples by developer pairs.
+      key = [x[0], x[1]]
+      inv_key = [x[1], x[0]]
+
+      if @options[:directed] == false
+        if acc.has_key? inv_key
+          key = inv_key
+        end
+      end
+
+      acc[key] = (acc[key] << x[2])
+      acc
+
+    end.to_a.map do |x|
+      # Make sure the interactions are sorted chronologically
+      [x[0], x[1].sort]
+    end
+
+    puts "#{dev_interactions.size} developer pairs engaged in #{dev_interactions.map{|x| x[1]}.flatten.size} interactions"
+
+    # Split developer interactions in time windows
+    graphs = timewindows.reduce({}) do |acc, tw|
+
+      min_time = tw[0] - @options[:link_fade_out] * 60 * 60 * 24 * 30
+      max_time = tw[1]
+
+      graph = dev_interactions.reduce({}) do |acc1, x|
+        interaction_ts = x[1].find_all{|y| y > min_time and y < max_time}
+        if interaction_ts.size > 0
+          acc1[x[0]] = interaction_ts.size
+        end
+        acc1
+      end.map do |k, v|
+        # Produce the adjacency matrix for this time window as a list of
+        # triplets from, to, weight
+        [k[0], k[1], v]
+      end
+      acc.merge({tw => graph})
+    end
+
+    # Write a file per graph
+    graphs.each do |tw, graph|
+      directed = if @options[:directed] == true then 'd' else 'u' end
+      fname = "graph-#{ARGV[0]}-#{ARGV[1]}-#{directed}-#{@options[:window_length]}-#{@options[:link_fade_out]}-#{tw[0]}-#{tw[1]}.txt"
+      puts "Writing file #{fname}"
+      f = File.open(fname, 'w')
+      f.puts format.map{|x| x.to_s}.join(',')
+      graph.each{|line| f.puts line.join(',')}
+      f.close
+    end
+  end
+
+end
+
+Graphs.run

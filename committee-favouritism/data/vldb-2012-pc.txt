@@ -1,0 +1,205 @@
+Karl Aberer, EPFL, Switzerland 
+Ashraf Aboulnaga, University of Waterloo 
+Yanif Ahmad, Johns Hopkins University 
+Rafal Angryk, Montana State University
+Walid Aref, Purdue University
+Shivnath Babu, Duke University 
+Magdalena Balazinska, University of Washington 
+Elisa Bertino, Purdue University 
+Claudio Bettini, University of Milano 
+Sourav Bhowmick, Nayang Technological University 
+Angela Bonifati, University of Lille and INRIA Lille, France
+Tolga Bozkaya, Google
+Randal Burns, Johns Hopkins University 
+Michael Cafarella, Michigan
+Bogdan Cautis, Telecom ParisTech, France
+Ugur Cetintemel, Brown University
+Chee-Yong Chan, National University of Singapore
+Kevin Chang, Univ. of Illinois at Urbana-Champaign 
+Gang Chen, Zhejiang University, China 
+Lei Chen, Hong Kong University of SaT, China 
+Su Chen, NUS
+Reynold Cheng, University of Hong Kong 
+Jan Chomicki, University of Buffalo 
+Chris Clifton, Purdue University 
+Gao Cong, Nayang Technological University 
+Brian Cooper, Google, USA 
+Graham Cormode, AT&T 
+Bin Cui, Peking University 
+Carlo Curino, MIT
+Alfredo Cuzzocrea, University of Calabria, Italy
+Nilesh Dalvi, Yahoo! Research
+Anish Das Sharma, Google Research 
+Antonios Deligiannakis, Technical University of Crete 
+Amr El Abbadi, UC Santa Barbara 
+Lujun Fang, University of Michigan
+Alan Fekete, University of Sydney 
+Hakan Ferhatosmanoğlu, Ohio State University 
+Alvaro Fernandes, University of Manchester 
+Rodrigo Fonseca, Brown University
+Johann-Christoph Freytag, Humboldt-Universität zu Berlin 
+Minos Garofalakis, TU Creta, Greece 
+Bugra Gedik, IBM Watson 
+Gabriel Ghinita, Purdue University 
+Phillip Gibbons, Intel Labs
+Goetz Graefe, HP 
+Sergio Greco, University of Calabria 
+Todd Green, University of California, Davis 
+Le Gruenwald, University of Oklahoma 
+Haryadi Gunawi, University of California, Berkeley 
+Rahul Gupta, IIT Bombay 
+Hakan Hacigumus, NEC Labs America
+Stavros Harizopoulos, HP 
+Howard Ho, IBM 
+Vagelis Hristidis, UC Riverside
+Meichun Hsu, HP 
+Jeong-Hyon Hwang, SUNY, Albany 
+Ihab Ilyas, University of Waterloo 
+Zachary Ives, University of Pennsylvania 
+Dean Jacobs, SAP 
+Hans-Arno Jacobsen, University of Toronto 
+Christian Jensen, Aalborg University 
+Chris Jermaine, Rice University 
+Ricardo Jumenez-Peris, Technical University of Madrid 
+Theodore Johnson, AT&T 
+Vana Kalogeraki, Athens U of Econ. and Business
+Bhargav Kanagal, Yahoo! Research
+Raghav Kaushik, Microsoft Research 
+Eamonn Keogh, University of California, Riverside 
+Martin Kersten, CWI 
+Benny Kimelfeld, IBM
+Masaru Kitsuregawa, University of Tokyo
+George Kollios, Boston University 
+Flip Korn, AT&T Labs Research
+Hank Korth,  Lehigh University
+Donald Kossmann, ETH Zurich 
+Nick Koudas, University of Toronto
+Laks V.S. Lakshmanan, University of British Columbia 
+Mong-Li Lee, National University of Singapore 
+Wang-Chien Lee, Penn State University 
+Cuiping Li, Renmin University of China 
+Guoliang Li, Tsinghua University, China 
+Lipyeow Lim, University of Hawaii at Manoa 
+David Lo, Singapore Management University
+David Lomet, Microsoft Research 
+Boon Thau Loo, University of Pennsylvania 
+Qiong Luo, Hong Kong University of SaT, China 
+Ashwin Machanavajjhala, Yahoo 
+Sanjay Madria, University of Missouri-Rolla 
+Stefan Manegold, CWI, Netherlands 
+Sharad Mehrotra, University of California, Irvine 
+Gerome Miklau, Univ. of Massachusetts, Amherst 
+Bongki Moon, University of Arizona 
+Kyriakos Mouratidis, Singapore Management Univ. 
+Gero Muhl, University of Rostock 
+Suman Nath, MSR 
+Sylvia Nittel, University of Maine 
+Dan Olteanu, Oxford
+Beng Chin Ooi, NUS
+Meral Ozsoyoglu, Case Western Reserve University
+M. Tamer Özsu, University of Waterloo 
+Esther Pacitti, University of Montpellier 
+Sandeep Pandey, Yahoo! Research
+Olga Papaemmanouil, Brandeis University 
+Srinivasan Parthasarathy, The Ohio State University 
+Jian Pei, Simon Fraser University 
+Peter Pietzuch, Imperial College 
+Lucian Popa, IBM 
+Rachel Pottinger, University of British Columbia 
+Sunil Prabhakar, Purdue University 
+Vijayshankar Raman, IBM, USA 
+Vibhar Rastogi, Yahoo 
+Christopher Re, University of Wisconsin, Madison 
+Ken Ross, Columbia University 
+Elke Rundensteiner, Worcester Polytechnic Institute 
+Maria Sapino, University of Torino 
+Yücel Saygın, Sabanci University
+Hengtao Shen, University of Queensland
+Kyuseok Shim, Seoul National University 
+Lidan Shou, Zhejiang University, China 
+Adam Silberstein, Yahoo!, USA 
+Yannis Sismanis, IBM, USA 
+Richard Snodgrass, University of Arizona 
+Divesh Srivastava, AT&T 
+Dan Suciu, University of Washington 
+S Sudarshan, IIT Bombay
+Torsten Suel, Polytechnic Institute of NYU
+Egemen Tanin, University of Melbourne 
+Yufei Tao, Chinese University of Hong Kong, China 
+Martin Theobald, Max Planck Institute, Germany 
+Frank Tompa, University of Waterloo 
+Anthony Tung, National University of Singapore
+Stratis Viglas, University of Edinburgh 
+Jianyong Wang, Tsinghua University
+Wei Wang, University of North Carolina 
+Gerhard Weikum, Max Planck Institute, Germany
+Raymond Chi-Wing Wong, HKUST
+Xiaokui Xiao, Nanyang Technological University, Singapore
+Dong Xin, Google 
+Fei Xu, Microsoft
+Jiong Yang, Case Western Reserve University 
+Jun Yang, Duke 
+Haruo Yokota, Tokyo Institute of Technology
+Ge Yu, Northeastern University, China
+Jeffrey Xu Yu, Hongkong University
+Donghui Zhang, Paradigm4
+Zhenjie Zhang, Advanced Digital Sciences Center, Illinois at Singapore Pte.
+Rui Zhang, University of Melbourne
+Aoying Zhou, East China Normal University, China
+Bin Zhou, University of Maryland
+Xiaofang Zhou, ITEE, UQ
+Xuan Zhou, Renmin University, China
+Feida Zhu, Singapore Management University
+Cristiana Amza, U. Toronto, Canada 
+Phil Bernstein Microsoft Research, USA 
+Philippe Bonnet, IT U. of Copenhagen, Denmark 
+Michael Carey, UC Irvine, USA 
+Jens Dittrich, Uni. Saarland, Germany 
+Mary Fernandez, AT&T Research, USA 
+Bettina Kemme, McGill Uni., Canada 
+Whang Kyu-Young, KAIST, Korea 
+Samuel Madden, MIT, USA 
+Ioana Manolescu, INRIA, France 
+Dimitris Papadias, Hong Kong University of SaT, China 
+Hamid Pirahesh, IBM Almaden, USA 
+Maya Ramanath, IIT Delhi, India 
+Uwe Roehm, University of Sydney, Australia 
+Jens Teubner, ETH Zurich, Switzerland 
+Peter Triantafillou, U. Patras, Greece 
+Cong Yu, Google, USA
+Ismail Ari, Ozyegin University
+David Dewitt, Microsoft
+Alon Halevy, Google
+Marcus Fontoura, Google
+Michael Franklin, UC Berkeley
+Stratos Idreos, CWI
+C Mohan, IBM Almaden Research Center
+Mukesh Mohania, IBM
+Vivek Narasayya, Microsoft Reseach
+Fatma Ozcan, IBM Almaden Research Center
+Donovan Schneider, Salesforce.com
+Min Wang, HP Labs
+Yuan Yu, Microsoft
+Murat Ali Bayir, Google, USA
+Daniele Braga, Politecnico di Milano, Italy
+Selcuk Candan, Arizona State University, USA
+Mustafa Canim, IBM Research, USA
+Bogdan Cautis, Telecom ParisTech, France
+Lijun Chang, Chinese University of Hong Kong, China
+Peter Christen, Australian National University, Australia
+Jun Gao, Peking University, China
+Bingsheng He, Nanyang Technological University, Singapore
+Melanie Herschel, Universite de Paris Sud, France
+Yoshiharu Ishikawa, Nagoya University, Japan
+Zoi Kaoudi, INRIA Saclay, France
+Latifur Khan, University of Texas at Dallas, USA
+Yannis Katsis, University of California at San Diego, USA
+Adam Lee, University of Pittsburgh, USA
+Eric Lo, Hong Kong Polytechnic University, China
+Sharad Mehrotra, University of California at Irvine, USA
+Mohamed Mokbel, University of Minnesota, USA
+Benjamin Nguyen, Universite de Versailles Saint-Quentin, France
+Shaoxu Song, Tsinghua University, China
+Jaideep Vaidya, Rutgers University, USA
+Li Xiong, Emory University, USA
+Wenjie Zhang, University of New South Wales, Australia

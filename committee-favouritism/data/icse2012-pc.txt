@@ -1,0 +1,47 @@
+Gail Murphy, University of British Columbia, Canada
+Mauro Pezzè, University of Lugano, Switzerland and University of Milano Bicocca, Italy
+Giuliano Antoniol, École Polytechnique de Montréal, Canada
+Jo Atlee, University of Waterloo, Canada
+Luciano Baresi, Politecnico di Milano, Italy
+Victor Braberman, University de Buenos Aires and CONICET, Argentina
+Antonio Carzaniga, University of Lugano, Switzerland
+Betty Cheng, Michigan State University, USA
+Jane Cleland-Huang, DePaul University, USA
+Vittorio Cortellessa, Università  dell'Aquila , Italy
+Robert DeLine, Microsoft Research, USA
+Arie van Deursen, Delft University of Technology, The Netherlands
+Massimiliano Di Penta, University of Sannio, Italy
+Laura K. Dillon, Michigan State University, USA
+Jacky Estublier, Grenoble University, France
+Alessandro Garcia, PUC-Rio, Brazil
+Holger Giese, University of Potsdam, Germany
+Mark Harman, University College London, UK
+Ahmed E. Hassan, Queen's University, Canada
+Andre van der Hoek, University of California Irvine, USA
+James A. Jones, University of California, Irvine, USA
+Natalia Juristo, Universidad Politechnica de Madrid, Spain
+Sunghun Kim, Hong Kong University of Science and Technology, China
+Axel van Lamsweerde, University of Louvain, Belgium
+Crista Lopes, University of California Irvine, USA
+Leonardo Mariani, University of Milano Bicocca, Italy
+Darko Marinov, University of Illinois at Urbana-Champaign, USA
+Kenichi Matsumoto, Nara Institute of Science and Technology, Japan
+Hong Mei, Peking University, China
+Mira Mezini, Technische Universität Darmstadt, Germany
+Emerson Murphy-Hill, North Carolina State University, USA
+Alessandro Orso, Georgia Tech, USA
+Harold Ossher, IBM Research, USA
+Marco Pistoia, IBM Research, USA
+Klaus Pohl, University Duisburg-Essen, Germany
+Lori Pollock, University of Delaware, USA
+Adam Porter, University of Maryland, USA
+David Rosenblum, National University of Singapore, Singapore
+Atanas Rountev, Ohio State University, USA
+Onn Shehory, IBM Haifa Research Lab, Israel
+Margaret-Anne Storey, University of Victoria, Canada
+Zhendong Su, University of California Davis, USA
+Paolo Tonella, Fondazione Bruno Kessler, Italy
+Willem Visser, Stellenbosch University, South Africa
+Laurie Williams, North Carolina State University, USA
+Yun Yang, Swinburne University of Technology, Australia
+Andrea Zisman, City University, UK

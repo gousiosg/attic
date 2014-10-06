@@ -1,0 +1,22 @@
+John Barton
+Robert Binder
+Toby Bloom
+Craig Chambers
+Krzysztof Czarnecki
+Jim Doble
+Brian Foote
+Dennis Gannon
+Giovanna Guerrini
+Gerti Kappel
+Joe Kiniry
+Jørgen Lindskov Knudsen
+Doug Lea
+Mary Loomis
+Satoshi Matsuoka
+Gail Murphy
+Oscar Nierstrasz
+James Noble
+Bran Selic
+Peter Sweeney
+Clemens Szyperski
+Rebecca Wirfs-Brock

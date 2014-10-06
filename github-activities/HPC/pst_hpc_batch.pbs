@@ -1,0 +1,14 @@
+#PBS -l nodes=1:ppn=1,mem=2gb
+#PBS -N example_crunching
+#PBS -j oe 
+#PBS -m b
+#PBS -M aron.lindberg@case.edu
+#PBS -l walltime=36:00:00
+
+module load R-3.0.2
+cp * $PFSDIR
+cd $PFSDIR
+R CMD BATCH /home/axl340/pst_crunching/example_crunching.R
+cp $PFSDIR/* $PBS_O_WORKDIR
+
+# IMPLEMENT COMMAND TO WRITE OUTPUT

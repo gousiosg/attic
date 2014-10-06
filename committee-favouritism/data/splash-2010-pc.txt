@@ -1,0 +1,35 @@
+Martin Rinard, MIT, USA
+Ali-Reza Adl-Tabatabai, Intel, USA
+Antony Hosking, Purdue University, USA
+Benjamin Pierce, University of Pennsylvania, USA
+Bill Pugh, University of Maryland, USA
+Brian Demsky, University of California, Irvine, USA
+Christoph Kirsch, University of Salzburg, Austria
+Cristian Cadar, Imperial College, UK
+Dave Thomas, Bedarra Research Labs, Canada
+Dirk Riehle, Friedrich-Alexander-University of Erlangen-Nurnberg, Germany
+Eli Tilevich, Virginia Tech, USA
+Elisa Baniassad, Australian National University, Austria
+Emery Berger, University of Massachusetts, Amherst, USA
+Eran Yahav, IBM Research, USA
+Frank Tip, IBM Research, 
+Gary T. Leavens, University of Central Florida, USA
+Hans-J. Boehm, HP Labs, 
+Jakob Rehof, University of Dortmund, Germany
+Jong-Deok Choi, Samsung, Korea
+Kathleen Fisher, AT&T Labs Research, USA
+Koushik Sen, University of California, Berkeley, USA
+Kwangkeun Yi, Seoul National University, Korea
+Lenore Zuck, National Science Foundation, University of Illinois at Chicago, USA
+Maria Jump, King's College, USA
+Michael Bond, University of Texas, Austin, USA
+Ondrej Lhotak, Waterloo, Canada
+Patrick Lam, Waterloo, Canada
+Richard P. Gabriel, IBM Research, USA
+Robert Cartwright, Rice University, USA
+Robert Hirschfeld, Hasso-Plattner-Institut Potsdam, Germany
+Shaz Qadeer, Microsoft, USA
+Theo D'Hondt, Vrije Universiteit Brussel, Belgium
+Vijay Saraswat, IBM Research, USA
+Wei-Ngan Chin, National University of Singapore, Singapore
+Westley Weimer, University of Virginia, USA

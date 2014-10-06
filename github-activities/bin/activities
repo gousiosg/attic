@@ -1,0 +1,47 @@
+#!/usr/bin/env ruby
+
+require 'ghtorrent'
+require 'activities'
+
+class ActivityStream < GHTorrent::Command
+
+  include Activities
+
+  def prepare_options(options)
+    options.banner <<-BANNER
+Extract activity streams from pull requests and issues
+
+#{command_name} owner repo
+
+    BANNER
+  end
+
+  def validate
+    super
+    Trollop::die 'Two arguments required' if args[1].nil?
+  end
+
+  def ght
+    @ght ||= GHTorrent::Mirror.new(settings)
+    @ght
+  end
+
+  def db
+    @sql_db ||= ght.get_db
+    @sql_db
+  end
+
+  def go
+
+    format = [:pull_req_id, :user, :action, :created_at]
+    puts format.map { |x| x.to_s }.join(',')
+
+    all_activities(ARGV[0], ARGV[1]).each do |activity|
+      puts activity.join(',')
+    end
+
+  end
+
+end
+
+ActivityStream.run
