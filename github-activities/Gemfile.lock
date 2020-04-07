@@ -28,7 +28,7 @@ GEM
       trollop (~> 2.0.0)
     mongo (1.8.6)
       bson (~> 1.8.6)
-    rake (10.1.0)
+    rake (13.0.1)
     sequel (3.48.0)
     trollop (2.0)
 
